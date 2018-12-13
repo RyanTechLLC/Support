@@ -8,3 +8,9 @@ img{
   -ms-transition: opacity .5s ease-in-out;
   -o-transition: opacity .5s ease-in-out;
 }
+
+body{
+
+  font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
