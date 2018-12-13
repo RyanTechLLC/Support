@@ -11,18 +11,20 @@
   </head>
   </br>
   <body>
-    <script>
+    <p>Please direct all support inquires to Support@RyanTechLLC.com</p>
+
+    <script type="text/javascript" src="js/ebay.js"></script>
+	<div id="auction-nudge-items" class="auction-nudge"></div>
+
+  <script>
+    window.onload = function (){
       if (AN_Item){
         alert('Not blocking ebay results');
       }
       else{
         alert("Blocking eBay results");
       }
-    </script>
-    <p>Please direct all support inquires to Support@RyanTechLLC.com</p>
-
-    <script type="text/javascript" src="js/ebay.js"></script>
-	<div id="auction-nudge-items" class="auction-nudge"></div>
-
+    }
+  </script>
   </body>
 </html>
