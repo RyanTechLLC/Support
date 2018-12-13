@@ -21,6 +21,9 @@
         a.textContent += 'Looks like your adblocker is blocking the page. Don't worry, we don't run ads.';
         document.body.appendChild(a);
       }
+      else{
+        document.body.removeChild(a);
+      }
     </script>
 
     <p>Please direct all support inquires to Support@RyanTechLLC.com</p>
