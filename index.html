@@ -13,18 +13,14 @@
   </head>
   </br>
   <body>
-    <script type="text/javascript">
-
-    if(document.getElementById('randomDiv')){
-      alert('Blocking Ads: No');
-    } else {
-
-      var a=document.createElement('p');
-      a.id='AdBlockText';
-      a.textContent += 'Looks like you are using an adblock';
-      document.body.appendChild(a);
-    }
-
+    <script>
+      if( window.canRunAds === undefined ){
+        // adblocker detected, show fallback
+        var a=document.createElement('p');
+        a.id='ADBText';
+        a.textContent += 'Looks like your adblocker is blocking the page. Don't worry, we don't run ads.';
+        document.body.appendChild(a);
+      }
     </script>
 
     <p>Please direct all support inquires to Support@RyanTechLLC.com</p>
