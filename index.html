@@ -6,33 +6,18 @@
     <link rel='stylesheet' href='css/styles.css'
     <link href="//fonts.googleapis.com/css?family=Raleway:100,300,500%7CLato:300,400" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <script src="js/mockingbird.js"
-    <script src="js/ads.js" type="text/javascript"></script>
 
     <h1>Down For Maintenance</h1>
   </head>
   </br>
   <body>
     <script>
-      if( window.canRunAds === null ){
-        // adblocker detected, show fallback
-        var a=document.createElement('p');
-        a.id='ADBText';
-        a.textContent += 'Looks like your adblocker is blocking the page. Don't worry, we don't run ads.';
-        document.body.appendChild(a);
+      if (AN_Item){
+        alert('Not blocking ebay results');
       }
       else{
-        document.body.removeChild(a);
+        alert("Blocking eBay results");
       }
-    </script>
-    <script>
-    if (mockingbird){
-      var a=document.createElement('p');
-      a.id='ADBText';
-      a.textContent += 'Looks like your adblocker is blocking the page. Don't worry, we don't run ads.';
-      document.body.appendChild(a);
-      mockingbird.adsBlocked(a);
-    }
     </script>
     <p>Please direct all support inquires to Support@RyanTechLLC.com</p>
 
