@@ -1,4 +1,4 @@
 var e=document.createElement('div');
-e.id='qbLuDPvXtcAr';
+e.id='randomDiv';
 e.style.display='none';
 document.body.appendChild(e);
