@@ -47,7 +47,7 @@ callback_();
 }}
 
 function callback_ () {
-    alert("Testing");
+    alert("Test");
     if (document.body.checkMe){
       alert("Ebay is not blocked");
     }
